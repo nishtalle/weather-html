@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ##### NAME:  global.css
+ * ##### AUTHOR: Nina Mokoosio */
+body {
+	
+	background-image: url(img/background.jpg);
+	background-size: auto 1400px;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button, optgroup, select, textarea {
+	color: #FFF;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 5px 20px;
+}
+
+.container, {
+	min-width: 1200px;
+}
+
+.location {
+	float: left;
+	margin: 0px 20px;
+}
+
+.weatherCard {
+	float: left;
+	margin: 20px 10px;
+	padding: 10px 20px;
+}
+
+.weatherCard span {
+	float: left;
+	width: 100%;
+}
+
+.weatherCard .temperature {
+	float: left;
+}
+
+.weatherCard .temperatureValue {
+	float: left;
+	font-size: 5rem;
+	text-align: center;
+	width: 65%;
+}
+
+.weatherCard .temperature span {
+	float: none;
+	width: 5%;
+}
+
+.temperature .tempMetrics {
+	float: left;
+	margin: 20px 5px;
+	width: 2rem;
+}
+
+.temperature .tempMetrics button {
+	background-color: rgba(255, 255, 255, 0.0);
+	border: 0;
+	padding: 5px 15px;
+    text-transform: capitalize;
+}
+
+.weatherCard .weatherIcon {
+	padding: 30px;
+}
+
+.changeLocation {
+	margin: 20px 0;
+}
+
+.changeLocation span {
+	padding: 0;
+}
+
+.changeLocation button {
+	background-color: rgba(255, 255, 255, 0.0);
+	border: 1px solid #999;
+	background: #999;
+	border-radius: 5px;
+	padding: 12px 10px 5px 10px;
+}
+
+.changeLocation .locationIcon {
+	float: left;
+	padding: 0 10px;
+}
+
+.locationSearch {
+	background-color: #FFF;
+	border: 1px solid #999;
+	display: none;
+	padding: 20px 10px;
+	width: 17rem;
+}
+
+.locationSearch input {
+	width: 12rem;
+}
+
+.locationSearch ul {
+	list-style-type: none;
+}
+
+.locationSearch ul li{
+	font-size: 0.8rem;
+}
+
+.atmosphereConditions {
+	float: left;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.atmosphereConditions .condition {
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	float: left;
+	margin: 10px;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.atmosphereConditions .conditionIcon {
+	display: inline;
+	padding: 10px 0;
+}
+
+.atmosphereConditions .conditionIcon img {
+	display: inline-block;
+	transform: scale(0.6);
+}
+
+.atmosphereConditions .conditionType {
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+
+
